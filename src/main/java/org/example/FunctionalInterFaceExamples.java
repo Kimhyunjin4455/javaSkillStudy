@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.function.Predicate;
 
 public class FunctionalInterFaceExamples {
-
+    // Merge & Commit test comment
     // List , Predicate를 인자로 받고, List의 원소들이 특정 조건을 만족할 경우(test) 다른 리스트(result)에 저장합니다.
     private static <T> List<T> filter(List<T> list, Predicate<T> filters){
         List<T> result = new ArrayList<>();
